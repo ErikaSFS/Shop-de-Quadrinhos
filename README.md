@@ -1,3 +1,4 @@
+
 # Shop de Quadrinhos
 
 
@@ -23,3 +24,4 @@ Instruções para rodar o projeto:
 - execute: ```ng serve --open```
 
 O projeto abrirá em seu navegador padrão na url http://localhost:4200/
+
