@@ -1,0 +1,11 @@
+
+<div class="fora"> 
+  <div *ngIf="comic" class="detalhes">
+    <h2>{{comic.title}} Detalhes</h2>
+    <img src={{comic.thumbnail.path}}.{{comic.thumbnail.extension}}>
+    <button type="button" class="close" aria-label="Fechar">
+    <span aria-hidden="true">&times;</span> </button>
+    <h3>Descrição:</h3> <h5>{{comic.description}}</h5>
+    <h3>Preço:</h3> <p>R${{comic.prices[0].price}}</p>
+  </div>
+</div>

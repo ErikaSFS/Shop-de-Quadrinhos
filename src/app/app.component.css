@@ -1,0 +1,25 @@
+html,body{
+    background-image: url("src/app/img/core-img/background.jpg");
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marvel-logo{
+    width: 175px;
+    height: 70px;
+    display: inline-block;
+    
+}
+
+.logo{
+    text-align:  center;
+    color: white;
+}
+
+footer{
+    text-align:  center;
+    
+}
+
+footer a{
+    color: white;
+}
